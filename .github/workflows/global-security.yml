@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main", "master" ]
   schedule:
-    - cron: '0 0 * * 0' # Run weekly on Sunday
+    - cron: '0 0 * * 0' # Run weekly on every Sunday
 
 jobs:
   secret-scanning:

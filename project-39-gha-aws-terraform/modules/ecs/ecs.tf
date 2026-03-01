@@ -1,5 +1,5 @@
 provider "aws" {
-  region     = "us-east-1"
+  region     = "ap-south-1"
 #  access_key = "my-access-key"
 #  secret_key = "my-secret-key"
 }
@@ -253,7 +253,7 @@ resource "aws_cloudwatch_log_group" "dummyapi" {
 }
 
 # Replace <AWS_ACCOUNT_ID> with your AWS account ID
-// example -> ./push.sh . <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/<IMAGE_NAME> latest
+// example -> ./push.sh . <AWS_ACCOUNT_ID>.dkr.ecr.ap-south-1.amazonaws.com/<IMAGE_NAME> latest
 
 resource "null_resource" "push" {
   provisioner "local-exec" {

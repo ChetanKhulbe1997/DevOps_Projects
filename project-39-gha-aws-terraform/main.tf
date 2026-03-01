@@ -21,7 +21,7 @@ terraform {
 }
 
 provider "aws" {
-  region     = "us-east-1"
+  region     = "ap-south-1"
 }
 
 variable "prefix" {
@@ -36,7 +36,7 @@ variable "port" {
 
 variable "region" {
     description = "selects the aws region to apply these services to"
-    default = "us-east-1"
+    default = "ap-south-1"
 }
 
 variable "source_path" {

@@ -35,7 +35,7 @@ variable "pub_rt_name" {
 variable "imagename" {
    type = map
    default = {
-     us-east-1 = "ami-083654bd07b5da81d"
-     us-east-2 = "ami-0629230e074c580f2"
+     ap-south-1 = "ami-051a31ab2f4d498f5"
+     ap-south-1 = "ami-019715e0d74f695be"
    }
 }

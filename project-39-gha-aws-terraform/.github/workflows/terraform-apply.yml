@@ -1,3 +1,4 @@
+#Workflow 2: Terraform Apply Infrastructure
 name: "Terraform-Apply-Infrastructure"
 
 on:

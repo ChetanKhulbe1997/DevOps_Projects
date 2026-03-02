@@ -2,7 +2,7 @@
 FROM node:12.7.0-alpine
 
 # Add Maintainer info
-MAINTAINER harshhaareddy <harshhaa03@gmail.com>
+MAINTAINER CHETAN KHULBE <chetankhulbe2016@gmail.com>
 
 # Set the working directory to /app
 WORKDIR '/app'

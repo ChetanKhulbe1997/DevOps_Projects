@@ -12,7 +12,7 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "Harshhaa-Dev-Projects"
+    organization = "my-tf-hcp"
 
     workspaces {
       name = "gh-actions-aws-terraform"
